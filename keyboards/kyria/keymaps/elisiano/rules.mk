@@ -3,6 +3,7 @@
 MOUSEKEY_ENABLE = yes # Mouse keys
 EXTRAKEY_ENABLE = yes # Audio control and System control
 MIRYOKU_ALPHAS := WORKMAN
+MIRYOKU_MAPPING	:= EXTENDED_THUMBS
 
 # select alternative base layer alphas
 ifneq ($(strip $(MIRYOKU_ALPHAS)),)
